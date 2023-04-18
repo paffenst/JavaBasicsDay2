@@ -6,8 +6,8 @@ public static void main(String[] args) {
         int eins = Integer.parseInt(scanner.next());
         berechneFak(eins);
     }
-    static void berechneFak(int zahl) {
-        int fak = 1;
+    static void berechneFak(long zahl) {
+        long fak = 1;
         for (int i = 1; i <= zahl; ++i) {
             fak = fak * i;
         }
